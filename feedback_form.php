@@ -290,6 +290,7 @@ $form = new Question;
  }
  ?>
  </table>
+ <p>To what extent do you agree with the statements below?</p>
   <table class="table table-stripped table-bordered">
      <?php
        $idx = 'a';
@@ -299,7 +300,9 @@ $form = new Question;
  }
  ?>
   </table>
-
+<h1>SECTION F: INSTRUCTIONS</h1>
+<p>Below is a list of problems and complaints.Please read each one carefully, select an entry that
+indicates how much you have been bothered by that problem last month</p>
     <table class="table table-stripped table-bordered">
      <?php
        $idx = 1;
@@ -309,7 +312,13 @@ $form = new Question;
  }
  ?>
  </table>
-
+<h1>SECTION G: INSTRUCTIONS</h1>
+<p>These items deal with ways you've been dealing with stress since on arrival in this country.There
+are many ways to try to deal with problems.These items ask what you've been doing to deal with the situation.
+Obviously, different people deal with things in different ways, but I'm interested in how you've tried to deal with it.
+Each item says something about a particular way of dealing with the situation.I would like to know to what extent
+you've been doing what the item says.How much or how frequently.Don't answer on the basis of whether it seems to be working or not.
+Just whether or not you're doing it.Make your answers as true FOR YOU as you can.</p>
      <table class="table table-stripped table-bordered">
      <?php
        $idx = 1;
@@ -319,7 +328,9 @@ $form = new Question;
  }
  ?>
  </table>
-
+<h1>SECTION H:</h1>
+<p>Below is a list of brief descriptions of people.Would you please indicate for each description whether that person
+is very much like you, like you, somewhat like you, a little like you, not like you, or not at all like you.</p>
      <table class="table table-stripped table-bordered">
      <?php
        $idx = 1;
