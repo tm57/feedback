@@ -2,11 +2,12 @@
 archives/*
 
 #config
-#config/*
+config/*
 
 #D_Store
 D_Store
 
 #inc, feed_back_form
 *.inc
+*.js
 feedback_form.php
