@@ -1,5 +1,5 @@
 <?php
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'localhost');//put your mysql server here
 define('DB_NAME', 'research');
 define('DB_USER', '');//put your mysql db username here
 define('DB_PASS', '');//put your mysql server db password here
