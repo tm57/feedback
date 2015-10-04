@@ -1,0 +1,12 @@
+#archives
+archives/*
+
+#config
+#config/*
+
+#D_Store
+D_Store
+
+#inc, feed_back_form
+*.inc
+feedback_form.php
