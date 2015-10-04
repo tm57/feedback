@@ -2,7 +2,7 @@
 archives/*
 
 #config
-config/
+config/*
 
 #D_Store
 D_Store
