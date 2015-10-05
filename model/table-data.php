@@ -31,13 +31,13 @@ class TableData {
     $last_key = end(array_keys($this->questions));
     //if (count($this->questions) == count($this->responses)) {
         foreach ($this->questions as $key => $question) {
-          $row = '['.$idx.', "'.$this->string_format($question).'", "'.$this->responses[$idx].'" ]';
+          $row = '['.$idx.', "'.$this->string_format($question).'", "'.$this->responses[$idx-1].'" ]';
+          $idx++;
           if ($key != $last_key) {
             $row.=',
             ';
           }
           $result.=$row;
-          $idx++;
         }
    // }
 
