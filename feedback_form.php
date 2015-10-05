@@ -335,7 +335,7 @@ is very much like you, like you, somewhat like you, a little like you, not like 
      <?php
        $idx = 1;
        foreach ($section_h as $question) {
-        $form->the_question($idx, RADIO, $question, "HHHH".$idx, array("1 very much like me", "2 Like me", " 3 somewhat like me", " 4 A little like me", "5 Not like me", "6 Not at all like me"));
+        $form->the_question($idx, RADIO, $question, "HHHH".$idx, array("(1) very much like me", "(2) Like me", "(3) somewhat like me", "(4) A little like me", "(5) Not like me", "(6) Not at all like me"));
         $idx++;
  }
  ?>
