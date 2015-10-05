@@ -24,7 +24,7 @@
 
 <div class="container">
 <p>Dear Friend,<br><br>
-  This is a research of a sample of African immigrants in Europe.The study has potential for future EU policy on immigrants.Your amswers will form a part of other responses.Please feel honoured to be part of the research as you contribute to the welfare of Africans in Europe.<br><br>
+  This is a research of a sample of African immigrants in Europe.The study has potential for future EU policy on immigrants.Your answers will form a part of other responses.Please feel honoured to be part of the research as you contribute to the welfare of Africans in Europe.<br><br>
 You're expected to fully complete the questionnaire in detail.The is <span style="color:green">NO RIGHT</span> or <span style="color:red">WRONG</span> answer.No identifier or identity information is required from you.Your response will be treated anonymously and with confidentiality.<br><br>
 Thank you for being tomorrow's change.<br><br>
 
