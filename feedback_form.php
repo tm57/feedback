@@ -74,8 +74,10 @@ $form = new Question;
 
      <tr>
     <td>4</td>
-    <td>Home Country in Africa</td>
+    <td>Home Country in Africa
     <input type="text" name="q4" value="Home Country in Africa" hidden>
+    </td>
+    
     <td>
     <div class="form-group">
      
@@ -86,29 +88,30 @@ $form = new Question;
 
    <tr>
     <td>5</td>
-    <td>Migration Status in current country</td>
+    <td>Migration Status in current country
     <input type="text" name="q5" value="Migration Status in current country" hidden>
+    </td>
     <td>
     <div class="form-group">
       <select class="form-control" name="AAA5">
-        <option value="">Migrant(Naturalized)</option>
+        <option>Migrant(Naturalized)</option>
         <option>Migrant(Permanent Resident)</option>
         <option>Migrant(Undocumented)</option>
         <option>Refugee</option>
         <option>Visitor</option>
         <option>Student</option>
         <option>Widowed</option>
-        <label><input type="text" name="AAA5A" placeholder="Other" ></label>
-
   </select>
 </div>
+ <label><input type="text" name="AAA5A" placeholder="Other" ></label>
     </td>
   </tr>
 
      <tr>
     <td>6</td>
-    <td>How long have you been here?(Please specify in months)</td>
+    <td>How long have you been here?(Please specify in months)
     <input type="text" name="q6" value="How long have you been here?(Please specify in months)" hidden>
+    </td>
     <td>
     <div class="form-group">
      
@@ -120,6 +123,7 @@ $form = new Question;
   <tr>
     <td>7</td>
     <td>Have you ever attended school?(If no , skip to 9)</td>
+    
     <input type="text" name="q7" value="Have you ever attended school?(If no , skip to 9)" hidden>
     <td>
     <div class="form-group">
@@ -137,8 +141,9 @@ $form = new Question;
   </tr>
      <tr>
     <td>8</td>
-    <td>What is the highest level of education you have had?</td>
-    <input type="text" name="q8" value="What is the highest level of education you have had?" hidden>
+    <td>What is the highest level of education you have had?
+        <input type="text" name="q8" value="What is the highest level of education you have had?" hidden>
+</td>
     <td>
     <div class="form-group">
       <select class="form-control" name="AAA8">
@@ -155,8 +160,9 @@ $form = new Question;
 
       <tr>
     <td>9</td>
-    <td>Were you working before you came here?</td>
-    <input type="text" value="Were you working before you came here?" name="q9" hidden/>
+    <td>Were you working before you came here?
+    <input type="text" value="Were you working before you came here?" name="q9" hidden/></td>
+    
     <td>
     <div class="form-group">
       <select class="form-control" name="AAA9">
@@ -171,20 +177,21 @@ $form = new Question;
 
     <tr>
     <td>10</td>
-    <td>If you were working , what kind of work did you do?</td>
+    <td>If you were working , what kind of work did you do?
     <input type="text" value="If you were working , what kind of work did you do?" name="q10" hidden/>
+    </td>
+    
     <td>
     <div class="form-group">
       <select class="form-control" name="AAA10">
-        <option value="">Professional</option>
+        <option>Professional</option>
         <option>Own formal Business</option>
         <option>Informal Business</option>
         <option>Office worker</option>
         <option>Semi-skilled worker</option>
         <option>Unskilled/manual worker</option>
-        <label><input type="text" name="AAA10A" placeholder="Other, Please specify" </label>
-
   </select>
+   <label><input type="text" name="AAA10A" placeholder="Other, Please specify" </label>
 </div>
     </td>
   </tr>
@@ -215,8 +222,7 @@ $form = new Question;
     <div class="form-group ">
       <!-- <label><input type='text' name="AAA11[]" placeholder="Other, Please specify"></label> -->
     </div>
-    </td>
-  </tr>
+  
   <input type="text" name="q12" value="In your current country, do you have any of the following problems.Check all that applies?" hidden>
   <input type="text" name="q13" value="Is this your first time coming here?" hidden>
   <input type="text" name="q14" value="If no how many times have you been here?(Indicate the number the of times you have been here)" hidden>
@@ -227,6 +233,8 @@ $form = new Question;
   <input type="text" name="q19" value="How did you travel to Europe?" hidden>
   <input type="text" name="q20" value="How did you learn about travel" hidden>
   <input type="text" name="q21" value="How will you describe(briefly) your expectations before and after you arrived" hidden>
+    </td>
+  </tr>
 
   <?php
   $form->the_question(12, CHECKBOX, "In your current country, do you have any of the following problems.Check all that applies", 'AAA12[]', array('Money Problems', "Health Problems", "Conflict with family/partner", "Problems with the authorities(Police ,etc)", "Racism", "Language"));

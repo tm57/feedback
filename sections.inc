@@ -193,7 +193,7 @@ $section_h = array(
   "It is important to this person to think up new ideas and be creative;to do things one's way",
   "It is important to this person to be rich;to have a lot of money and expensive things",
   "Living in secure surroundings is important to this person;to avoid anything that might be dangerous",
-  "It is important to this person to have a god time;to 'spoil' oneself",
+  "It is important to this person to have a good time;to 'spoil' oneself",
   "It is important to this person to do something to the good of society",
   "Being very successful is important to this person;to have people recognize one's achievements",
   "Adventure and taking risks is important to this person;to have an exciting life",
