@@ -16,7 +16,7 @@ for($i = 1; $i < 5;$i++){
   ';
 }
 
-$dataA = array();
+$dataA = array("AAA5" => "");
 if(isset($_POST['AAA5A'])){
   $dataA["AAA5"] = $_POST['AAA5A'];
 }else{
