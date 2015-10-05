@@ -269,7 +269,7 @@ $form = new Question;
  <?php 
  $idx = 1;
   foreach ($section_b as $question) {
-  $form->the_question($idx, RADIO, $question, "bbbb".$idx,array("Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree" ));
+  $form->the_question($idx, RADIO, $question, "ZZZZ".$idx,array("Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree" ));
   $idx++;
   }
  ?>

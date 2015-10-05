@@ -125,6 +125,11 @@ doc.text(40, 40, "SECTION B");
 doc.autoTable(columns, data);
 
 doc.addPage();
+<?php echo $zz->data_rows();?>
+doc.text(40, 40, "SECTION B");
+doc.autoTable(columns, data);
+
+doc.addPage();
 doc.text(40, 40, "SECTION C");
 <?php echo $c->data_rows_special();?>
 doc.autoTable(columns, data);
