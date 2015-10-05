@@ -110,7 +110,7 @@ $section_d = array(
   "Do you always practice what you preach?",
   "Are you always troubled about feelings of guilt?",
   "Do you sometimes put off until tomorrow what you ought to do today?",
-  "Get you get a party going?"
+  "Can you get a party going?"
 );
 //==================================
 //SECTION E Questions

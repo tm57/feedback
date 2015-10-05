@@ -124,12 +124,12 @@ $form = new Question;
     <td>
     <div class="form-group">
       <div class="radio">
-      <label><input type="radio" name="AAA7">Yes</label>
+      <label><input type="radio" name="AAA7" value="Yes">Yes</label>
       </div>
     </div>
     <div class="form-group">
       <div class="radio">
-      <label><input type="radio" name="AAA7">No</label>
+      <label><input type="radio" name="AAA7" value="No">No</label>
       </div>
     </div>
 
