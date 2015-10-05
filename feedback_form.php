@@ -100,7 +100,6 @@ $form = new Question;
         <option>Refugee</option>
         <option>Visitor</option>
         <option>Student</option>
-        <option>Widowed</option>
   </select>
 </div>
  <label><input type="text" name="AAA5A" placeholder="Other" ></label>
