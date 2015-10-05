@@ -23,7 +23,7 @@ if(isset($_POST['AAA5A'])){
   $dataA["AAA5"] = $_POST['AAA5'];
 }
 
-$jsArray.= '["5", "'.$_POST["q5"].'", "'.$dataA['AAA5'].'"],
+$jsArray.= '["5", "'.$_POST["q5"].'", "'.$_POST['AAA5'].'"],
   ';
 
 for($i = 6; $i < 10;$i++){
