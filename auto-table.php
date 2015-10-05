@@ -16,12 +16,12 @@ for($i = 1; $i < 5;$i++){
   ';
 }
 
-$dataA = array("AAA5" => "");
-if(isset($_POST['AAA5A'])){
-  $dataA["AAA5"] = $_POST['AAA5A'];
-}else{
-  $dataA["AAA5"] = $_POST['AAA5'];
-}
+// $dataA = array("AAA5" => "");
+// if(isset($_POST['AAA5A'])){
+//   $dataA["AAA5"] = $_POST['AAA5A'];
+// }else{
+//   $dataA["AAA5"] = $_POST['AAA5'];
+// }
 
 $jsArray.= '["5", "'.$_POST["q5"].'", "'.$_POST['AAA5'].'"],
   ';
