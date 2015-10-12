@@ -243,7 +243,7 @@ $form = new Question;
   $form->the_question(15, CHECKBOX, "Why did you come to this country?(select all that applies)", "AAA15[]", array("Political Reasons", "Economic Hardships", "Health Problems", "Conflict with family/partner", "Problems with the authorities(Police,etc)", "Non of the Above"));
   $form->the_question(16, TEXTAREA, "Please explain why you came to Europe", "AAA16", array());
   $form->the_question(17, SELECT, "Are you presently working here", "AAA17", array("Working", "Casually employed", "Unemployed", "Never worked in my life"));
-  $form->the_question(18, CHECKBOX, "Now what kind of problem(s) are you experiencing in the country.Check all that apply", "AAA18[]",array("Money Problems", "Health Problems", "Conflict with family/partner", "Problems with the authorities(Police,etc)"));
+  $form->the_question(18, CHECKBOX, "Now what kind of problem(s) are you experiencing in the country.Check all that apply", "AAA18[]",array("Money Problems", "Health Problems", "Conflict with family/partner", "Problems with the authorities(Police,etc)", "Non of the Above"));
   $form->the_question(19, CHECKBOX, "How did you travel to Europe?", "AAA19[]", array("Air", "Land", "Sea"));
   $form->the_question(20, TEXTAREA, "How did you learn about travel(Please explain briefly)", "travel", array());
   $form->the_question(21, TEXTAREA, "How will you describe(briefly) your expectations before and after you arrived", "expectations", array());
