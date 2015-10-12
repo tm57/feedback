@@ -218,9 +218,10 @@ $form = new Question;
      <div class="checkbox ">
       <label><input type="checkbox" name="AAA11[]" value="Language" >Language</label>
     </div>
-    <div class="form-group ">
-      <!-- <label><input type='text' name="AAA11[]" placeholder="Other, Please specify"></label> -->
+    <div class="checkbox ">
+      <label><input type="checkbox" name="AAA11[]" value="Not Applicable" >Not Applicable</label>
     </div>
+ 
   
   <input type="text" name="q12" value="In your current country, do you have any of the following problems.Check all that applies?" hidden>
   <input type="text" name="q13" value="Is this your first time coming here?" hidden>
@@ -236,12 +237,12 @@ $form = new Question;
   </tr>
 
   <?php
-  $form->the_question(12, CHECKBOX, "In your current country, do you have any of the following problems.Check all that applies", 'AAA12[]', array('Money Problems', "Health Problems", "Conflict with family/partner", "Problems with the authorities(Police ,etc)", "Racism", "Language"));
-  $form->the_question(13, RADIO, "Is this your first time coming here?" , 'yesNo', array("Yes", "No"));
-  $form->the_question(14, TEXTAREA, "If no how many times have you been here?(Indicate the number the of times you have been here)", "num_times", array());
-  $form->the_question(15, CHECKBOX, "Why did you come to this country?(select all that applies)", "AAA15[]", array("Political Reasons", "Economic Hardships", "Health Problems", "Conflict with family/partner", "Problems with the authorities(Police,etc)"));
+  $form->the_question(12, CHECKBOX, "In your current country, do you have any of the following problems.Check all that applies", 'AAA12[]', array('Money Problems', "Health Problems", "Conflict with family/partner", "Problems with the authorities(Police ,etc)", "Racism", "Language", "Not Applicable"));
+  $form->the_question(13, RADIO, "Is this your first time coming here?" , 'AAA13', array("Yes", "No"));
+  $form->the_question(14, TEXTAREA, "If no how many times have you been here?(Indicate the number the of times you have been here)", "AAA14", array());
+  $form->the_question(15, CHECKBOX, "Why did you come to this country?(select all that applies)", "AAA15[]", array("Political Reasons", "Economic Hardships", "Health Problems", "Conflict with family/partner", "Problems with the authorities(Police,etc)", "Non of the Above"));
   $form->the_question(16, TEXTAREA, "Please explain why you came to Europe", "AAA16", array());
-  $form->the_question(17, SELECT, "Are you presently working here", "current_work", array("Working", "Casually employed", "Unemployed", "Never worked in my life"));
+  $form->the_question(17, SELECT, "Are you presently working here", "AAA17", array("Working", "Casually employed", "Unemployed", "Never worked in my life"));
   $form->the_question(18, CHECKBOX, "Now what kind of problem(s) are you experiencing in the country.Check all that apply", "AAA18[]",array("Money Problems", "Health Problems", "Conflict with family/partner", "Problems with the authorities(Police,etc)"));
   $form->the_question(19, CHECKBOX, "How did you travel to Europe?", "AAA19[]", array("Air", "Land", "Sea"));
   $form->the_question(20, TEXTAREA, "How did you learn about travel(Please explain briefly)", "travel", array());

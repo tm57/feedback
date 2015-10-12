@@ -37,11 +37,13 @@ if(isset($_POST['AAA10A'])){
   $dataA["AAA10"] = $_POST['AAA10'];
 }
 
-$jsArray.= '["10", "'.$_POST["q10"].'", "'.$dataA['AAA10'].'"],
+$short = string_format($dataA['AAA10']);
+$jsArray.= '["10", "'.$_POST["q10"].'", "'.$short.'"],
   ';
 $temp = "";
 foreach ($_POST["AAA11"] as $value) {
-  $temp.=$value;
+  $temp.=$value.'
+  ';
 }
 $short = string_format($_POST["q11"]);
 $jsArray.= '["11", "'.$short.'", "'.$temp.'"],
