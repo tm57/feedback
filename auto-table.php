@@ -1,7 +1,6 @@
 <?php
+require_once 'pre_process.php';
 //This file is responsible for generating the data strings for the pdf version of the feedback completed form.
-
-
 function string_format($str = ""){
   if(strlen($str) <= 54){
     return $str.'\n';
@@ -93,6 +92,7 @@ $jsArray.= '["20", "'.$_POST["q20"].'", "'.$_POST['AAA20'].'"],
 $jsArray.= '["21", "'.string_format($_POST["q21"]).'", "'.$_POST['AAA21'].'"]
 ];';
 ?>
+
 
 
 <!DOCTYPE html>
